@@ -36,6 +36,16 @@ class Handler extends ExceptionHandler
         $message = $e->getMessage();
         $code = self::EXCEPTION_CLASS_CODE_MAP[get_class($e)] ?? self::EXCEPTION_CLASS_CODE_MAP['basic'];
 
+        if ($e instanceof ValidationException) {
+            $errors = $e->errors();
+
+            return new ApiErrorResponse(
+                message: 'Validation failed.',
+                errors: $errors,
+                code: $code
+            );
+        }
+
         return new ApiErrorResponse(
             message: $message,
             exception: $e,
