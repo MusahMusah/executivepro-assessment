@@ -20,8 +20,8 @@ A modern web application that provides a **_Wishlist_** feature for an e-commerc
 ### Step 1: Clone the repository
 
 ```bash
-git clone https://github.com/your-username/your-project.git
-cd your-project
+git clone https://github.com/MusahMusah/executivepro-assessment.git
+cd executivepro-assessment
 ```
 
 ### Step 2: Install PHP dependencies
@@ -72,7 +72,7 @@ The application will be available at [http://localhost:8000](http://localhost:80
 
 API documentation is available through Postman at:
 
-[https://www.postman.com/your-team/workspace/your-project/overview](https://www.postman.com/your-team/workspace/your-project/overview)
+[Postman Documentation](https://universal-escape-417744.postman.co/workspace/My-Workspace~dc681f5f-208e-43e6-8f80-8a8b659037d2/collection/12541181-6dd35111-96e1-4a41-9f29-86b1ce366abc?action=share&creator=12541181&active-environment=12541181-ea6e7600-fc6f-48bd-a99b-b6d3971de9f2)
 
 ### Authentication
 
